@@ -1,3 +1,19 @@
 * {
     margin: 0%;
 }
+
+#width-chaat
+{
+    max-width: 1000px;
+    width: 900px;
+    height: 700px;
+    border: 5px;
+    border-color: black;
+}
+
+#chatonline
+{
+    width: 800px;
+    height: 600px;
+    margin-left: 30%;
+}
