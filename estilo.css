@@ -3,23 +3,66 @@
     padding: 0%;
 }
 
+body{
+    background-color: rgba(36, 36, 92, 0.678);
+}
+
+#container{
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    background-color: rgba(204, 204, 207, 0.822);
+}
+
+.msgcurta{
+    width: 500px;
+    background-color: rgba(255, 255, 255, 0.103);
+    text-align: center;
+    align-items: center;
+    margin-left: 29%;
+    backdrop-filter: blur(20px);
+    padding: 10px;
+    box-shadow: 10px 10px 50px black;
+    border-radius: 20px;
+}
+
 #width-chaat
 {
-    max-width: 1000px;
-    width: 900px;
-    height: 700px;
-    border: 5px;
-    border-color: black;
+    width: 706px;
+    height: 606px;
+    margin-left: 21% ;
+    border-radius: 20px;
+    padding: 8px;
+    animation: mudarcor 7s infinite ease;
+    margin-top: 10px;
+    justify-content: center; 
+    align-items: center;
 }
 
 #chatonline
 {
-    width: 800px;
+    width: 700px;
     height: 600px;
-    margin-left: 30%;
+    border-radius: 20px;
 }
 
-
+@keyframes mudarcor{
+    0% {
+        background-color: rgb(132, 0, 255);
+    }
+    25%{
+        background-color: rgb(255, 0, 234);
+    }
+    50%{
+        background-color: rgb(255, 0, 140);
+    }
+    75%{
+        background-color: rgb(255, 0, 234);
+    }
+    100%{
+        background-color: rgb(132, 0, 255);
+    }
+}
 
 .menu li {
     display: inline;
@@ -28,13 +71,15 @@
 .menu a {
     padding-left: 30px;
     padding-right: 30px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-
+    padding-top: 35px;
+    padding-bottom: 35px;
+    background-color: rgb(59, 59, 59) ;
+    color: white;
     transition: 0.3s all;
-
+    margin: 10px;
     list-style: none;
     text-decoration: none;
+    border-radius: 10px;
 }
 .menu {
     background-color: rgb(62, 97, 212);
@@ -44,8 +89,11 @@
     justify-content: center;
 }
 .menu a:hover {
-    background-color: rgb(45, 46, 46);
+    background-color: rgb(99,99,99);
     color: white;
+    box-shadow: 0px 0px 20px black;
+    box-shadow: 0px 0px 15px rgb(9, 206, 255), rgb(0, 238, 255) 5px rgb(0, 217, 255) inset;
+    text-shadow: 0px 0px 8px rgb(255, 255, 255), 0px 0px 3px rgb(102, 88, 143);
 }
 
 #portfolio_titulo {
