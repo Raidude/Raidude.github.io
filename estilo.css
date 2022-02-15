@@ -3,20 +3,32 @@
     padding: 0%;
 }
 
+
+#container{
+    justify-content: center;
+    text-align: center;
+    width: 1200px;
+}
+
+
 #width-chaat
 {
-    max-width: 1000px;
-    width: 900px;
-    height: 700px;
+    width: 800px;
+    height: 602px;
     border: 5px;
-    border-color: black;
+    background-color: aqua;
+    align-items: center;
+    margin-left:300px ;
+    padding: 8px;
+    border-radius: 10px;
+    
 }
 
 #chatonline
 {
     width: 800px;
     height: 600px;
-    margin-left: 30%;
+    border-radius: 20px;
 }
 
 
