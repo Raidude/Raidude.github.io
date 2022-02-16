@@ -97,7 +97,7 @@ body{
 }
 
 #portfolio_titulo {
-    background-color: blueviolet;
+    background-color: rgb(207, 239, 248);
     height: 400px;
     display: flex;
     justify-content: center;
@@ -119,11 +119,21 @@ body{
     margin-bottom: 15px;
 }
 
+.trabalhos div {
+    background-color: brown;
+    width: 50%;
+}
+
 
 .rodape {
-    background-color: aliceblue;
+    background-color: rgb(62, 97, 212);;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 250px;
+}
+.rodape p {
+    color: rgb(59, 59, 59);
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
