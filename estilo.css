@@ -4,12 +4,7 @@
 }
 
 body{
-<<<<<<< HEAD
     background-color: rgba(228, 218, 226, 0.678);
-=======
-    /* background-color: rgba(36, 36, 92, 0.678); */
-    background-color: rgb(238, 250, 253);
->>>>>>> portfolio
 }
 
 #container{
@@ -32,15 +27,17 @@ body{
 
 #width-chaat
 {
-    width: 706px;
-    height: 606px;
-    margin-left: 21% ;
-    border-radius: 20px;
-    padding: 8px;
+    width: 710px;
+    height: 610px;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding-right: 10px;
     animation: mudarcor 7s infinite ease;
     margin-top: 10px;
-    justify-content: center; 
-    align-items: center;
+    padding-left: 5px;
+    padding-top: 5px;
+    display: block;
+    
 }
 
 #chatonline
@@ -48,6 +45,7 @@ body{
     width: 700px;
     height: 600px;
     border-radius: 20px;
+    margin: 0 auto;
 }
 
 @keyframes mudarcor{
@@ -66,6 +64,12 @@ body{
     100%{
         background-color: rgb(132, 0, 255);
     }
+}
+
+.card{
+    justify-content: center;
+    align-items: center;
+    margin-left: 40%;
 }
 
 .menu li {
