@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: rgba(204, 204, 207, 0.822);
+    background-color: rgb(238, 250, 253);
 }
 
 #container{
@@ -204,7 +204,7 @@ body{
 }
 .trabalhos p {
     text-align: justify;
-    margin: 5px 20px 5px 20px;
+    margin: 5px 20px 10px 20px;
     font-size: 20px;
 }
 
