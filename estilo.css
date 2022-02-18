@@ -11,7 +11,7 @@ body{
     justify-content: center;
     text-align: center;
     width: 100%;
-    background-color: rgba(204, 204, 207, 0.822);
+    background-color: rgba(255, 255, 255, 0.822);
 }
 
 .msgcurta{
@@ -84,6 +84,10 @@ body{
 
 }
 
+.cabecalho img{
+    margin-left: 50px;
+}
+
 .d-flex{
     align-items: flex-end;
     color: white;
@@ -131,7 +135,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 60%;
     margin: 0 auto;
     border-radius: 5px;
     margin-bottom: 1px;
