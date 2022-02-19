@@ -213,19 +213,17 @@ body{
 }
 
 #carouselSlide{
-    border: 2px solid black;
+    border: 5px solid black;
     width: 600px;
-    height: 518px;
-    display: flex;
+    height: 500px;
     margin: 0 auto;
     margin-bottom: 200px;
-    justify-content: center;
-    align-items: center;
-    background: black;
 }
 
 .carousel-item{
     transition: transform 2s ease, opacity .5s ease-out;
+    max-width: 600px;
+    height: 500px;
 
 }
 
