@@ -221,6 +221,7 @@ body{
     margin-bottom: 200px;
     justify-content: center;
     align-items: center;
+    background: black;
 }
 
 .carousel-item{
