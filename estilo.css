@@ -21,6 +21,7 @@ body{
     margin:0 auto;
     width: 80%;
     display: block;
+    margin-top: 50px;
 }
 
 
@@ -175,6 +176,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 100px;
 }
 #portfolio_titulo h1{
     margin-bottom: 30px;
@@ -254,7 +256,7 @@ body{
 
 .formulario{
     margin: 0 auto;
-    margin-top: 30px;
+    margin-top: 100px;
     width: 50%;
     height: 20%;
     border: 1px solid rgba(83, 83, 83, 0.589);
@@ -378,6 +380,7 @@ body{
     justify-content: center;
     border: 1px solid black;
     align-items: center;
+    margin-top: 100px;
 }
 
 .index-conteudo, .index-imagem {
