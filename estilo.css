@@ -253,6 +253,9 @@ body{
 }
 
 .index {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     width: 80%;
     padding: 20px;
     margin: 0 auto;
@@ -261,7 +264,13 @@ body{
     border: 1px solid black;
 }
 
+.index-conteudo, .index-imagem {
+    height: 50%;
+    width: 50%;
+}
+
 .index p {
     font-size: 20px;
     padding: 10px 4px 10px 4px;
 }
+
