@@ -179,6 +179,11 @@ body{
 #portfolio_titulo h1{
     margin-bottom: 30px;
 }
+#portfolio_titulo p {
+    width: 40%;
+    font-size: 20px;
+    margin-bottom: 100px;
+}
 
 .trabalhos {
     margin-top: 40px;
@@ -200,18 +205,23 @@ body{
     flex-direction: column;
     justify-content: center;
 
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 .trabalhos h2 {
     margin: 10px 20px 15px 20px;
     font-size: 50px;
+}
+.trabalhos h4 {
+    margin: 10px 20px 15px 20px;
 }
 .trabalhos p {
     text-align: justify;
     margin: 5px 20px 10px 20px;
     font-size: 20px;
 }
-
+.trabalhos a {
+    text-decoration: none;
+}
 #carouselSlide{
     width: 50%;
     height: 50%;
@@ -335,7 +345,7 @@ body{
 }
 
 .rodape {
-    background-color: rgb(62, 97, 212);;
+    background-color: rgb(62, 97, 212);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -354,12 +364,7 @@ body{
 
 .apresentacao {
     text-align: center;
-    font-size: 20px;
-}
-
-.apresentacao img {
-    margin: 20px auto 200px;
-    width: 70%;
+    font-size: 25px;
 }
 
 .index {
@@ -387,13 +392,16 @@ body{
     */
 }
 
+.index-conteudo a {
+    font-size: 22px;
+}
+
 .index-imagem img {
     width: 80%;
 }
 
 .index p {
     font-size: 20px;
-    padding: 10px 4px 10px 4px;
 }
 
 .index-conteudo p {
