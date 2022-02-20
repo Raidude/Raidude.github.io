@@ -199,6 +199,11 @@ body{
 #portfolio_titulo h1{
     margin-bottom: 30px;
 }
+#portfolio_titulo p {
+    width: 40%;
+    font-size: 20px;
+    margin-bottom: 100px;
+}
 
 .trabalhos {
     margin-top: 40px;
