@@ -3,6 +3,7 @@
 
 ## Desenvolvedores
 - Davi de Morais Farias
+- Thalyson Rian Mendes da Silva
 
 ## Como nosso projeto pode te ajudar?
 Nosso projeto foi criado para fornecer novas possibilidades na comunicação on-line. 
