@@ -258,7 +258,8 @@ body{
 }
 
 .apresentacao img {
-    margin: 20px 20px 20px 20px;
+    margin: 20px auto 200px;
+    width: 70%;
 }
 
 .index {
@@ -271,21 +272,36 @@ body{
     margin-bottom: 50px;
     justify-content: center;
     border: 1px solid black;
+    align-items: center;
 }
 
 .index-conteudo, .index-imagem {
     text-align: center;
-    height: 50%;
     width: 50%;
+    margin-bottom: 200px;
+}
+
+.index-conteudo {
+    /*
+    border: 1px solid black;
+    */
 }
 
 .index-imagem img {
-    margin: 20px 20px 20px 20px;
     width: 80%;
 }
 
 .index p {
-    font-size: 25px;
+    font-size: 20px;
     padding: 10px 4px 10px 4px;
 }
 
+.index-conteudo p {
+    text-align: justify;
+    font-size: 20px;
+}
+
+.index-conteudo span {
+    font-size: 22px;
+    font-weight: bold;
+}
