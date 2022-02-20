@@ -1,6 +1,7 @@
 * {
     margin: 0%;
     padding: 0%;
+
 }
 
 body{
@@ -16,7 +17,6 @@ body{
 
 #container{
     margin:0 auto;
-    border: 1px solid black;
 }
 
 
@@ -88,7 +88,7 @@ body{
     margin-top: 150px;
     margin-left: 20px;
     display: flex;
-    border: 0.5px solid rgb(12, 12, 39);
+    border: 0.5px solid rgba(12, 12, 39, 0.205);
     margin-right: 15px;
 }
 
