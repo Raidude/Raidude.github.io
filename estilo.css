@@ -416,3 +416,10 @@ body{
     font-size: 22px;
     font-weight: bold;
 }
+
+@media screen and (max-width: 768px){
+    .cabecalho .menu .rodape{
+        width: 100%;
+        padding: 0;
+    }
+}
