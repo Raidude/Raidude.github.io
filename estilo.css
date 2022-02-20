@@ -1,7 +1,9 @@
 * {
     margin: 0%;
     padding: 0%;
-
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body{
@@ -17,11 +19,14 @@ body{
 
 #container{
     margin:0 auto;
+    width: 80%;
+    display: block;
+    margin-top: 50px;
 }
 
 
 .msgcurta{
-    width: 500px;
+    width: 40%;
     background-color: rgba(255, 255, 255, 0.103);
     text-align: center;
     align-items: center;
@@ -31,27 +36,15 @@ body{
     border-radius: 20px;
 }
 
-#width-chaat
-{
-    width: 710px;
-    height: 610px;
-    margin: 0 auto;
-    border-radius: 10px;
-    padding-right: 10px;
-    animation: mudarcor 7s infinite ease;
-    margin-top: 10px;
-    padding-left: 5px;
-    padding-top: 5px;
-    display: block;
-    
-}
 
 #chatonline
 {
-    width: 700px;
-    height: 600px;
+    width: 80%;
+    height: 610px;
     border-radius: 20px;
     margin: 0 auto;
+    display: block;
+    padding: 10px;
 }
 
 @keyframes mudarcor{
@@ -73,23 +66,11 @@ body{
 }
 
 .card{
-    justify-content: center;
-    align-items: center;
+    width: 18%;
+    height: 20%;
     float: left;
     margin-top: 150px;
-    margin-left: 15px;
     display: flex;
-}
-
-.card2{
-    justify-content: center;
-    align-items: center;
-    float: right;
-    margin-top: 150px;
-    margin-left: 20px;
-    display: flex;
-    border: 0.5px solid rgba(12, 12, 39, 0.205);
-    margin-right: 15px;
 }
 
 .cabecalho{
@@ -123,50 +104,51 @@ body{
 }
 
 .icone{
-    width: 25px;
-    height: 30px;
-    margin-left: 20px;
+    width: 30px;
+    height: 25px;
+    float: left;
+    margin-top: 12px;
+    margin-inline-start: 10px;
 
 }
 
 .menu li {
     font-size: 20px;
-    justify-content: space-between;
-    margin: 0 auto;
+    margin-top: 12px;
 }
 
 
 .menu a {
     background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
+    color: rgb(18, 63, 66);
     transition: 0.3s all;
     list-style: none;
     text-decoration: none;
-    border-radius: 5px;
-    display: flex;
-    border: 1px solid rgba(0, 0, 0, 0.219);
+    border-radius: 5%;
+    border: 0.1rem solid rgba(0, 0, 0, 0.219);
     justify-content: space-between;
-    width: 150px;
-    height: 50px;
-    text-align: center;
     align-items: center;
-    margin-right: 30px;
+    width: 160px;
+    height: 60px;
+    margin: 8px;
 
 }
-.menu {
-    height: 60px;
-    display: flex;
+
+.contmenu{
+    height: 120px;
+    display:flex;
     align-items: center;
     justify-content: center;
-    width: 60%;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10%;
+}
+
+
+.menu{
+    width: 100%;
+    height: 70px;
     margin: 0 auto;
-    border-radius: 5px;
-    margin-bottom: 50px;
-
-
-
-    
-
 }
 
 .menu a:hover {
@@ -176,16 +158,15 @@ body{
     text-shadow: 0px 0px 8px rgb(255, 255, 255), 0px 0px 3px rgb(102, 88, 143);
     transform: translateX(-10px);
     box-shadow: 0px 0px 10px white;
-    border-color: rgb(24, 79, 107);
-
+    border: 1px solid rgb(24, 79, 107);
 }
-
-
 
 .menu ul{
     display: flex;
     margin: 0 auto;
-    
+    text-align: center;
+    align-items: center;
+    margin-left: 22%;
 }
 
 #portfolio_titulo {
@@ -195,6 +176,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 100px;
 }
 #portfolio_titulo h1{
     margin-bottom: 30px;
@@ -243,17 +225,18 @@ body{
     text-decoration: none;
 }
 #carouselSlide{
-    width: 600px;
-    height: 500px;
+    width: 50%;
+    height: 50%;
     margin: 0 auto;
-    margin-bottom: 200px;
+    margin-bottom: 150px;
+    margin-top: 100px;
 }
 
 #carouselSlide img{
     transition: transform 2s ease, opacity .5s ease-out;
     border-radius: 5px;
-    max-width: 600px;
-    max-height: 500px;
+    max-width: 100%;
+    max-height: 50%;
     border: 1px solid white;
 }
 
@@ -261,12 +244,21 @@ body{
     background-color: rgb(255, 255, 255);
     align-items: center;
     text-align: center;
-    margin-left: 42%;
+    margin-left: 33%;
+}
+
+.navegacao li{
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    text-align: center;
+    width: 10%;
 }
 
 .formulario{
     margin: 0 auto;
-    width: 600px;
+    margin-top: 100px;
+    width: 50%;
+    height: 20%;
     border: 1px solid rgba(83, 83, 83, 0.589);
     margin-bottom: 100px;
     background: linear-gradient(rgb(70, 70, 70), rgb(65, 65, 65));
@@ -280,7 +272,7 @@ body{
     text-align: center;
     text-transform: uppercase;
     font-size: 35px;
-    height: 100px;
+    height: 5%;
     margin-bottom: 20px;
     background-color: rgb(26, 26, 58);
     box-shadow: 0 0 5px rgb(0, 0, 0);
@@ -291,18 +283,33 @@ body{
 .formulario button{
     margin: 0 auto;
     margin-bottom: 20px;
-    width: 300px;
+    width: 40%;
     border: 0.5px solid black;
     box-shadow: 0 0 5px black;
     border-radius: 5px;
+    height: 10%;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 10px;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
 }
 
 .formulario textarea{
     margin-left: 99px;
-    width: 400px;
+    width: 60%;
     padding: 20px;
     text-align: justify;
     border-radius: 10px;
+    margin-left: 25%;
+    height: 200px;
 }
 
 .formulario input, button{
@@ -310,13 +317,12 @@ body{
     padding: 10px 20px 10px 20px;
     gap: 10px;
     display: block;
-    width: 400px;
+    width: 50%;
     margin: 0 auto;
     margin-bottom: 10px;
     box-shadow: 0 0 5px rgb(0, 0, 0);
     border: 0px;
     border-radius: 10px;
-
 }
   
 .formulario label{
@@ -327,10 +333,18 @@ body{
 .formulario input:hover {
     background-color: rgb(222, 224, 236);
     transform:translate(-1px);
-    
-
 }
 
+.formulario button:hover {
+    background-image: linear-gradient(to right, #25aae1, #40e4bb, #30dd87, #2bb6b6);
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+    background-position: 100% 0;
+    -o-transition: all .9s ease-in-out;
+    -webkit-transition: all .9s ease-in-out;
+    transition: all .9s ease-in-out;
+    transform-origin: center;
+    transform: scale(1.1);
+}
 
 .rodape {
     background-color: rgb(62, 97, 212);
@@ -338,6 +352,7 @@ body{
     align-items: center;
     justify-content: center;
     height: 250px;
+    width: 100%;
 }
 .rodape p {
     padding: 4px 4px 4px 4px;
@@ -365,6 +380,7 @@ body{
     justify-content: center;
     border: 1px solid black;
     align-items: center;
+    margin-top: 100px;
 }
 
 .index-conteudo, .index-imagem {
